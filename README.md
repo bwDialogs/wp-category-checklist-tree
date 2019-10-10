@@ -1,9 +1,9 @@
 # Category Checklist Tree 
-Contributors: scribu  
+Contributors: bwDialogs, scribu  
 Tags: admin, ui, categories, hierarchy  
 Requires at least: 3.4  
 Tested up to: 3.7  
-Stable tag: 1.3.2
+Stable tag: 1.3.3
 License: GPLv2 or later  
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -17,9 +17,14 @@ Additionally, it automatically scrolls to the first checked category.
 
 Works with custom taxonomies too.
 
-Links: [Plugin News](http://scribu.net/wordpress/category-checklist-tree) | [Author's Site](http://scribu.net)
+V1.3.3: Also disables top-level taxonomies that have children selected, if that's of any interest.
+
+Links: [GitHub](https://www.github.com/bwDialogs/wp-category-checklist-tree) | [Forked from Scribu](http://scribu.net/wordpress/category-checklist-tree) | [Original Author](http://scribu.net)
 
 ## Changelog 
+
+### 1.3.3
+* added javascript to disable top-level parent items if they have children
 
 ### 1.3.2 
 * fixed static warnings. props daankortenbach
